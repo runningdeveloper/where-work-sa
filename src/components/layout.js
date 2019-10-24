@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.gatsbyjs.org"
+                href="https://github.com/runningdeveloper/where-work-sa"
               >
                 Source, please contribute
               </a>
