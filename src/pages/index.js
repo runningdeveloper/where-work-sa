@@ -116,8 +116,8 @@ const IndexPage = () => {
           <h2 className="title">About</h2>
           <div className="content">
             <p>
-              A random experiment to make it easy for a developer someone in
-              South Africa to make a opensource contribution. Go to the GitHub
+              A random experiment to make it easy for a developer somewhere in
+              South Africa to make a open-source contribution. Go to the GitHub
               page for details on how to contribute. Add a work place or adjust
               the website.
             </p>

@@ -1,24 +1,15 @@
-# Where Work SA (where to work in SA)
+# Where Work SA
 
 ## What
 
-This is a simple website showing where you can work if you don't have an office in South Africa. Basically showing some spots with location and information about WIFI and etc.
+A random experiment to make it easy for a developer somewhere in South Africa to make a open-source contribution. Add a work place or adjust the website. Go to the [contibution guide](https://github.com/runningdeveloper/where-work-sa/blob/master/CONTRIBUTING.md) to add your contibution. 
+
+This might be a dumb thing but sometimes you got to try things.
 
 ## Why
 
-If you a student, remote or freelance worker its nice to get out of the house sometimes.
-
-I also want an easy way for people to contribute to an opensource project for stuff like hacktoberfest. I have no idea what I'm doing so please leave an issue for ideas.
+I want an easy way for people to contribute to an opensource project for stuff like [hacktoberfest](https://hacktoberfest.digitalocean.com). I have no idea what I'm doing so please leave an issue for ideas.
 
 ## Contributing
 
-- Add a place (easy option)
-- Fix/edit the website
-
-### Add a place
-
-Simply add a new json document to 'src/data' with the following structure.....
-
-### Fix/edit the website
-
-I'm using gatsby which is based on react. If you want to ad stuff do the following...
+[contibution guide](https://github.com/runningdeveloper/where-work-sa/blob/master/CONTRIBUTING.md)
