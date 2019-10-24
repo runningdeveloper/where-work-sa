@@ -1,0 +1,22 @@
+{
+  "name": "Mc Donalds The Buzz",
+  "website": "http://mcdonalds.co.za/",
+  "tel": "",
+  "email": "",
+  "lat": -26.024573,
+  "long": 27.989842,
+  "description": "Burger joint with WiFi",
+  "wifi": {
+    "quality": "slow",
+    "ssid": "McDonalds@VAST",
+    "password": "",
+    "unlimited": true,
+    "notes": "no signup required"
+  },
+  "times": "Monday to Sunday 7am-6pm",
+  "cost": "Buy something from the them to sit down.",
+  "notes": "Good amount of comfortable seating. Lots of people working on laptops but they will look at you funny if you stay too long. Didn't see many plugs.",
+  "city": "Johannesburg",
+  "githubuser": "runningdeveloper",
+  "updated": "24/10/2019"
+}

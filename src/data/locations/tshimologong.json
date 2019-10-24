@@ -1,0 +1,22 @@
+{
+  "name": "Tshimologong Precinct",
+  "website": "https://tshimologong.joburg",
+  "tel": "+27 10 822 3530",
+  "email": "community@tshimologong.joburg",
+  "lat": -26.194622,
+  "long": 28.031863,
+  "description": "Coworking space and incubation hub. There is a coffee shop with access.",
+  "wifi": {
+    "quality": "fast",
+    "ssid": "Tshimologong General",
+    "password": "letsinovate",
+    "unlimited": true,
+    "notes": "open no signup required"
+  },
+  "times": "Monday to Friday 8am-10pm",
+  "cost": "You can pay for access to the co-working space. But free at coffee shop.",
+  "notes": "There is a coffee shop at the entrance which doesn't require access control. You can sit here and do some work, while I see people work here without buying coffee. I would buy something. They have a proper co-working space that has access control which you can sign up to, check the website. Parking is on the street.",
+  "city": "Johannesburg",
+  "githubuser": "runningdeveloper",
+  "updated": "24/10/2019"
+}

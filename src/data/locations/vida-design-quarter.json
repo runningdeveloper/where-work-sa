@@ -1,0 +1,22 @@
+{
+  "name": "Vida E Caffe Design Quarter",
+  "website": "http://vidaecaffe.com/",
+  "tel": "",
+  "email": "",
+  "lat": -26.030358,
+  "long": 28.011282,
+  "description": "Coffee shop with some seating in a mall.",
+  "wifi": {
+    "quality": "average",
+    "ssid": "#Free Design Quarter WiFi",
+    "password": "",
+    "unlimited": true,
+    "notes": "email signup required"
+  },
+  "times": "Monday to Sunday 7am-6pm",
+  "cost": "Buy something from the coffee shop to sit down.",
+  "notes": "There are a couple seating options. Its a bit open as its in the hallway of the shopping center, however its not a high traffic shopping center. There are a few plugs for your laptop. It's a little bright as the roof is semi transparent letting the sun in.",
+  "city": "Johannesburg",
+  "githubuser": "runningdeveloper",
+  "updated": "24/10/2019"
+}
