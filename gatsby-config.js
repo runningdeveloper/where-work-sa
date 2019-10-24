@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/where-work-sa`,
   siteMetadata: {
     title: `where work sa`,
     description: `If you work remotely or don't have a an office, find a place to work in South Africa.`,
