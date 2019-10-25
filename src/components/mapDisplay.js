@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
+import React from "react"
 import Map from "pigeon-maps"
 import Marker from "pigeon-marker"
 
@@ -18,7 +17,7 @@ const MapDisplay = ({ locations, clickedMarker }) => {
                 description: item.description,
                 link: item.parent.name,
               }}
-              onClick={({ event, anchor, payload }) => {
+              onClick={({ payload }) => {
                 clickedMarker(payload)
               }}
             />
@@ -42,7 +41,7 @@ const MapDisplay = ({ locations, clickedMarker }) => {
                 name: item.name,
                 description: item.description,
               }}
-              onClick={({ event, anchor, payload }) => {
+              onClick={({ payload }) => {
                 console.log(payload)
               }}
             />
