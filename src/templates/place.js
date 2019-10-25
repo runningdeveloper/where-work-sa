@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import MapDisplay from "../components/mapDisplay"
 
-const Place = ({ pathContext, data }) => {
+const Place = ({ pageContext, data }) => {
   const place = data.locationsJson
   return (
     <Layout>
@@ -23,7 +23,7 @@ const Place = ({ pathContext, data }) => {
                 <Link to="/list/">Places List</Link>
               </li>
               <li className="is-active">
-                <Link to={`/${pathContext.slug}/`}>{place.name}</Link>
+                <Link to={`/${pageContext.slug}/`}>{place.name}</Link>
               </li>
             </ul>
           </nav>
@@ -60,15 +60,6 @@ const Place = ({ pathContext, data }) => {
                     <br />
                     <b>City:</b> {place.city}
                     <br />
-                    <b>Contibuter:</b>{" "}
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={`https://github.com/${place.githubuser}`}
-                    >
-                      {place.githubuser}
-                    </a>{" "}
-                    <br />
                     <b>WiFi:</b>{" "}
                     {place.wifi && (
                       <ul style={{ marginTop: 0 }}>
@@ -90,6 +81,20 @@ const Place = ({ pathContext, data }) => {
                 </header>
                 <div className="card-content">
                   <div className="content">{place.notes}</div>
+                  <br />
+                  <b>Contibuters:</b>{" "}
+                  {place.githubusers.map(a => (
+                    <>
+                      <a
+                        key={a}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={`https://github.com/${a}`}
+                      >
+                        {a}
+                      </a>{" "}
+                    </>
+                  ))}
                 </div>
               </div>
             </div>
@@ -111,7 +116,7 @@ export const pageQuery = graphql`
       cost
       description
       email
-      githubuser
+      githubusers
       id
       lat
       long

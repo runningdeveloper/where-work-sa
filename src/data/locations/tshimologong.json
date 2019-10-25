@@ -17,6 +17,6 @@
   "cost": "You can pay for access to the co-working space. But free at coffee shop.",
   "notes": "There is a coffee shop at the entrance which doesn't require access control. You can sit here and do some work, while I see people work here without buying coffee. I would buy something. They have a proper co-working space that has access control which you can sign up to, check the website. Parking is on the street.",
   "city": "Johannesburg",
-  "githubuser": "runningdeveloper",
+  "githubusers": ["runningdeveloper"],
   "updated": "24/10/2019"
 }

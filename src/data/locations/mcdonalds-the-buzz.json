@@ -17,6 +17,6 @@
   "cost": "Buy something from the them to sit down.",
   "notes": "Good amount of comfortable seating. Lots of people working on laptops but they will look at you funny if you stay too long. Didn't see many plugs.",
   "city": "Johannesburg",
-  "githubuser": "runningdeveloper",
+  "githubusers": ["runningdeveloper"],
   "updated": "24/10/2019"
 }

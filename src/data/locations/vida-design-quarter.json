@@ -17,6 +17,6 @@
   "cost": "Buy something from the coffee shop to sit down.",
   "notes": "There are a couple seating options. Its a bit open as its in the hallway of the shopping center, however its not a high traffic shopping center. There are a few plugs for your laptop. It's a little bright as the roof is semi transparent letting the sun in.",
   "city": "Johannesburg",
-  "githubuser": "runningdeveloper",
+  "githubusers": ["runningdeveloper"],
   "updated": "24/10/2019"
 }

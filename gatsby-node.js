@@ -30,7 +30,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 unlimited
               }
               city
-              githubuser
+              githubusers
               updated
               parent {
                 ... on File {

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import uniqBy from "lodash/uniqBy"
+import uniq from "lodash/uniq"
+import flatten from "lodash/flatten"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeHero from "../components/home-hero"
@@ -24,6 +26,7 @@ const IndexPage = () => {
             tel
             times
             website
+            githubusers
             parent {
               ... on File {
                 name
@@ -100,9 +103,12 @@ const IndexPage = () => {
                 <p className="heading">Contributers</p>
                 <p className="title">
                   {
-                    uniqBy(
-                      data.allLocationsJson.edges.map(({ node }) => node),
-                      "githubuser"
+                    uniq(
+                      flatten(
+                        data.allLocationsJson.edges.map(
+                          ({ node }) => node.githubusers
+                        )
+                      )
                     ).length
                   }
                 </p>
