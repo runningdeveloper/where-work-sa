@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import uniqBy from "lodash/uniqBy"
+import React from "react"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import MapDisplay from "../components/mapDisplay"
