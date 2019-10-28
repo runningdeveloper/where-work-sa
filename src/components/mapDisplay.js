@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
+import React from "react"
 import Map from "pigeon-maps"
 import Marker from "pigeon-marker"
 
