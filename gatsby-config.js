@@ -4,8 +4,8 @@ module.exports = {
     title: `where work sa`,
     description: `If you work remotely or don't have a an office, find a place to work in South Africa.`,
     author: `@geoff4l`,
+    extra: "2",
   },
-  extra: "1",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
