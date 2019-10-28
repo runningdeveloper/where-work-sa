@@ -1,0 +1,23 @@
+{
+  "name": "Superette in Cape Town",
+  "website": "http://www.superette.co.za/",
+  "tel": "021 802 5525",
+  "email": "info@superette.co.za",
+  "lat": 40.719730,
+  "long": -111.834440,
+  "description": "Seasonal fare and local produce lies at the heart of the neighbourhood café Superette. Brought to you by the organisers of the award-winning Neighbourgoods Market, this contemporary space offers feel-good food from farm to plate.",
+  "wifi": {
+    "quality": "",
+    "ssid": "",
+    "password": "",
+    "unlimited": true, 
+    "notes": ""
+  },
+  "times": "Monday - Friday:  08:00 - 15:00, Saturday:  08:00 - 14:00",
+  "cost": "",
+  "notes": "Price Range: $$-$$$ Reasonable, Seating: 30+, Wifi, WheelChair Access, Child Friendly",
+  "city": "Cape Town",
+  "githubusers": ["vaneguti110"], 
+  "updated": "25/10/2019" 
+}
+
